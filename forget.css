@@ -1,0 +1,120 @@
+*{
+    box-sizing:content-box;
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background-color:dodgerblue;
+}
+main{
+    position: relative;
+    width: 350px;
+    height: 330px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+    padding: 20px;
+    background-color: aliceblue;
+    box-shadow:0 0 8px 0 #2a2a2a;
+    border-radius: 2px;
+}
+main form label{
+    font-size: 12px;
+    font-weight: bold;
+}
+form .in1{
+    margin-top: 50px;
+}
+main form .in1 input{
+    width: 300px;
+    height: 40px;
+    background: transparent;
+    border-bottom: 1px solid #2a2a2a;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+main form .in2 input{
+    margin-top: 40px;
+    width: 300px;
+    height: 40px;
+    background: transparent;
+    border-bottom: 1px solid #2a2a2a;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+form ::placeholder{
+    color: #2a2a2a;
+    font-size: 14px;
+}
+main form .in1 i,
+main form .in2 i{
+    padding: 0px 15px 20px 0px;
+    font-size: 22px;
+}
+form .in1 input:focus,
+form .in2 input:focus{
+    outline: none;
+}
+button{
+    width: 340px;
+    border-radius: 2px;
+    margin: 15px;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    background-color:dodgerblue;
+    border:none;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+main form a{
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.forget_password{
+    height: 100%;
+    width: 100%;
+    background-color: #F0F4FF;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+
+
+}
+.form{
+    width: 380px;
+    height: 400px;
+    position: relative;
+    margin: 6% auto;
+    background: #ffff;
+    padding: px;
+}
+.groub{
+    margin-top: 20px;
+    position: relative;
+
+}
+.input{
+    margin: 20px;
+}
+.btn
+{
+    margin: 40px;
+    padding: 10px 30px;
+    cursor: pointer;
+    border: 0;
+    outline: none;
+    position: relative;
+
+}

@@ -1,0 +1,33 @@
+.adlogin{
+    height: 100%;
+    width: 100%;
+    background-color: #F0F4FF;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+
+
+}
+.formad{
+    width: 700px;
+    height: 800px;
+    position: relative;
+    margin: 3% auto;
+    background: #ffff;
+    padding: px;
+}
+form{
+    padding: 30px;
+}
+.groubad{
+    margin-top: 20px;
+    position: relative;
+    margin-bottom: 20px;
+
+}
+/* .form-group1{
+    margin-top: 20px;
+} */
+  .form-group{
+    margin-top: 10px;
+  }
